@@ -1,0 +1,36 @@
+.qrcode {
+    width: 180px;
+    display: block;
+    border-radius: 10px;
+    margin: auto;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.Text {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(212, 45%, 89%)
+}
+
+#color {
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 180px;
+}
